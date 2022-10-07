@@ -7,7 +7,9 @@
 }
 
 body {
-    background-color: hsl(205, 80%, 61%);
+    
+    background: rgb(168,164,227);
+    background: linear-gradient(101deg, rgba(168,164,227,1) 0%, rgba(104,104,158,1) 38%, rgba(86,207,232,1) 100%);
 }
 
 .resume-contents {
@@ -19,15 +21,15 @@ body {
 }
 
 .left-section {
-    grid-column: span 2;
+    grid-column: span 1;
     height: 100%;
-    background-color: #162882;
+    background-color: #208dd1;
 }
 
 .right-section {
-    grid-column: span 5;
+    grid-column: span 6;
     height: 100%;
-    background-color: #5d798f;
+    background-color: #99a6af;
     border-radius: 0px 60px 0px 0px;
 }
 
@@ -43,7 +45,7 @@ body {
 .profile .profile-image {
     width: 100%;
     border-radius: 50%;
-    border: 2px solid #1B2631;
+    border: 2px solid #4f5c68;
 }
 
 .name {
@@ -57,7 +59,7 @@ body {
 }
 
 .profession {
-    color: #FDB44B;
+    color: #a43241;
     font-size: 20px;
     text-transform: uppercase;
     text-align: center;
@@ -68,7 +70,7 @@ body {
 
 /* .contact-info { border-bottom: 2px solid #1B2631; } */
 .left-title {
-    color: #FDB44B;
+    color: #a43241;
     font-size: 15px;
     letter-spacing: 2px;
     text-transform: uppercase;
@@ -87,16 +89,16 @@ body {
     padding: .4rem 0;
     display: flex;
     align-items: center;
-    color: #d6dbdfaf;
+    color: #c6d7d7af;
     letter-spacing: 1px;
-    font-size: 10px;
+    font-size: 13px;
 }
 
 .contact-info ul li i,
 .references ul li i {
     padding-right: 1rem;
     font-size: 18px;
-    color: #2E86C1;
+    color: #030405;
 }
 
 .skills ul {
@@ -116,7 +118,7 @@ body {
     padding-top: 1.5rem;
     padding-bottom: .4rem;
     font-size: 18px;
-    color: #F9E79F;
+    color: #c25252;
     letter-spacing: 1px;
     text-transform: uppercase;
 }
@@ -135,7 +137,7 @@ body {
 }
 
 .right-title {
-    color: #70C6C7;
+    color: #20e5e8;
     font-size: 40px;
     letter-spacing: 2px;
     text-transform: uppercase;
@@ -172,7 +174,7 @@ body {
     font-weight: bold;
     text-transform: uppercase;
     letter-spacing: 1px;
-    color: #FDB44B;
+    color: #a43241;
     padding-bottom: .4rem;
 }
 
@@ -191,7 +193,7 @@ body {
     font-weight: bold;
     text-transform: uppercase;
     letter-spacing: 1px;
-    color: #FDB44B;
+    color: #a43241;
     padding-bottom: .4rem;
 }
 
